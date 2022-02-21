@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+
+
+
+echo "MAX_RETRIES: $MAX_RETRIES"
+echo "PR_NUMBER: $PR_NUMBER"
+echo "RETRY_INTERVAL: $RETRY_INTERVAL"
+echo "GITHUB_EVENT_PATH: $GITHUB_EVENT_PATH"
+echo "GITHUB_EVENT_PATH: $GITHUB_EVENT_PATH"
+
+
+echo ""
+echo $(cat $GITHUB_EVENT_PATH)
